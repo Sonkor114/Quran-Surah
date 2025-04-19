@@ -4,15 +4,19 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
+.head {
+    text-align: center;
+    font-size: 2rem;
+    background: #f5f6f7;
+    padding: 10px;
+}
 
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem;
-    margin-block: 5rem;
+    /* margin-block: 5rem; */
     background-color: #927a8e;
-    /* margin-block: auto; */
-    ;
 }
 .subFiles {
     display: flex;
