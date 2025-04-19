@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin-block: 5rem;
+    background-color: #927a8e;
+    /* margin-block: auto; */
+    ;
+}
+.subFiles {
+    display: flex;
+    font-size: 10px;
+    padding: 10px;
+    background: #8396a8;
+    width: 80%;
+    height: 80px;
+    margin: 10px 0 0 20px;
+    align-items: center;
+    justify-content: last baseline;
+}
+.subFiles:hover, .subFiles span:hover {
+    background: #333;
+    color: #fff;
+}
+.subFiles:hover {
+    text-decoration: line-through;
+}
+.subSurah {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+    margin-left: 50px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.diamond {
+    width: 35px;
+    height: 35px;
+    background-color: #f5f6f7;
+    transform: rotate(45deg); /* rotate the box */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .diamond span {
+    transform: rotate(-45deg); /* counter rotate the text */
+    font-weight: bold;
+    font-size: 2rem;
+    color: #333;
+  }
+  
